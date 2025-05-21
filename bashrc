@@ -15,6 +15,8 @@ HISTFILESIZE=1000
 # =========================
 
 export PATH=$PATH:/c/home/copin43/.npm-packages/
+export PATH=$PATH:"/c/Program Files (x86)/Go/bin"
+export PATH="/c/Program Files/PostgreSQL/16/bin:$PATH"
 
 # =========================
 # *=== Prompt Settings ===
@@ -144,5 +146,4 @@ alias ls='ls --color=auto'
 # Source Conda
 source ~/anaconda3/etc/profile.d/conda.sh
 
-export PATH=$PATH:"/c/Program Files (x86)/Go/bin"
-export PATH="/c/Program Files/PostgreSQL/16/bin:$PATH"
+
