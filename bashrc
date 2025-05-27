@@ -52,13 +52,28 @@ alias gpom='git pull origin main'
 alias gs='git status'
 alias vibes='git status'
 alias slay='gchm && gpom && git del'
-alias yeet='git push origin $(git rev-parse --abbrev-ref HEAD)'
 alias bet='git coa'
 alias new='git switch -c'
 
+# gh case statement
+yeet() {
+  case $(git rev-parse --abbrev-ref HEAD) in
+    main|master)
+      echo "Pushing to main/master is not allowed with this command."
+      ;;
+    *)
+      git push origin $(git rev-parse --abbrev-ref HEAD)
+      ;;
+  esac
+}
+
+# gh CLI aliases
+alias issue='gh issue list'
+
+
 alias c.='code .'
 alias jserve='json-server database.json -p 8088'
-
+alias bashrc='source ~/.bashrc'
 # Scripts for GIT
 alias git-coa='bash /c/Users/thisi/BashScripts/git-add-commit.sh'
 alias dbserve='bash /c/Users/thisi/BashScripts/dbserve.sh'
