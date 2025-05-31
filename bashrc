@@ -74,6 +74,9 @@ alias issue='gh issue list'
 alias c.='code .'
 alias jserve='json-server database.json -p 8088'
 alias bashrc='source ~/.bashrc'
+alias why='history | tail -n 20 | bat --language=bash --style=numbers'
+
+
 # Scripts for GIT
 alias git-coa='bash /c/Users/thisi/BashScripts/git-add-commit.sh'
 alias dbserve='bash /c/Users/thisi/BashScripts/dbserve.sh'
