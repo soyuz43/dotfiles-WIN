@@ -54,7 +54,7 @@ alias vibes='git status'
 alias slay='gchm && gpom && git del'
 alias bet='git coa'
 alias new='git switch -c'
-
+alias pushcount='git reflog origin/main --date=iso | grep "$(date +%Y-%m-%d)" | grep 'push' | wc -l'
 # gh case statement
 yeet() {
   case $(git rev-parse --abbrev-ref HEAD) in
@@ -75,8 +75,6 @@ alias c.='code .'
 alias jserve='json-server database.json -p 8088'
 alias bashrc='source ~/.bashrc'
 alias why='history | tail -n 20 | bat --language=bash --style=numbers'
-
-
 # Scripts for GIT
 alias git-coa='bash /c/Users/thisi/BashScripts/git-add-commit.sh'
 alias dbserve='bash /c/Users/thisi/BashScripts/dbserve.sh'
