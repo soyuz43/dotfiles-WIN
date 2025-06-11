@@ -9,6 +9,8 @@ HISTFILESIZE=1000
 # *=== Exports ===
 # =========================
 
+# Use VS Code as default editor for Git
+export EDITOR='code --wait'
 
 # =========================
 # *=== Path Settings ===
