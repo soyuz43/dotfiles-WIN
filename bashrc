@@ -84,6 +84,8 @@ alias dbserve='bash /c/Users/thisi/BashScripts/dbserve.sh'
 alias initproject="/c/Users/thisi/BashScripts/initproject.sh"
 
 alias obsidian='/c/Users/thisi/AppData/Local/Obsidian/Obsidian.exe'
+# Concatenates a dir
+alias generate='powershell.exe -ExecutionPolicy Bypass -File "C:/Users/thisi/Powershell/pwsh_scripts/concatenate_code.ps1"'
 
 
 # =========================
