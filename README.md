@@ -11,7 +11,7 @@ This repo contains my personal `.bashrc` file for Git Bash (Windows 11s). It's d
   - `slay` → sync `main` and clean up local branches
 - Dev-friendly prompt
 - Minimal setup, portable between machines
-
+- Scripts needed are [here](https://github.com/soyuz43/BashScripts-Win)
 ## Setup
 
 Clone this repo:
