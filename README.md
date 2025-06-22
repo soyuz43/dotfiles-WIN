@@ -1,6 +1,6 @@
-# 🛠️ Dotfiles – bashrc by soyuz43
+# Dotfiles – bashrc by soyuz43
 
-This repo contains my personal `.bashrc` file for Git Bash (Windows). It's designed for developer productivity, with aliases and prompt customizations tailored for Git workflows and C#/Node projects.
+This repo contains my personal `.bashrc` file for Git Bash (Windows 11s). It's designed for developer productivity, with aliases and prompt customizations tailored for Git workflows and C#/Node projects.
 
 ## 🔧 Features
 
@@ -12,7 +12,7 @@ This repo contains my personal `.bashrc` file for Git Bash (Windows). It's desig
 - Dev-friendly prompt
 - Minimal setup, portable between machines
 
-## 🧪 Setup
+## Setup
 
 Clone this repo:
 
@@ -32,14 +32,6 @@ Reload the shell:
 ```bash
 source ~/.bashrc
 ```
-
-## 🚀 Why
-
-Keeping dotfiles version-controlled makes it easy to:
-
-* Reproduce your dev environment on new machines
-* Share useful shell tooling with others
-* Track and refine your CLI workflow over time
 
 ---
 
