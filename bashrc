@@ -83,6 +83,7 @@ alias dbserve='bash /c/Users/thisi/BashScripts/dbserve.sh'
 # 
 alias initproject="/c/Users/thisi/BashScripts/initproject.sh"
 
+alias obsidian='/c/Users/thisi/AppData/Local/Obsidian/Obsidian.exe'
 
 
 # =========================
